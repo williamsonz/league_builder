@@ -58,7 +58,7 @@ def letter_writer(child, guardians, team):
 if __name__ == "__main__":
     
     # open and set up csvfile
-    with open('/home/zachary/Downloads/soccer_players.csv') as csvfile:
+    with open('soccer_players.csv') as csvfile:
         soccer_roster = csv.DictReader(csvfile)
         
         # pull data from roster to send to other functions
